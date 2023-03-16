@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+div{
+  display: flex;
+  align-items: center;
+}
+
+div:nth-child(even) {
+    background-color: lightyellow;
+}
